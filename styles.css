@@ -1,0 +1,56 @@
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(193, 128, 193); /* Solid purple background */
+    color: rgb(7, 7, 7); /* Ensures text is readable */
+    }
+
+
+h1 {
+    text-align: left;
+}
+
+.note-form {
+    width: fit-content;
+    padding: 10px;
+    background-color: #848784;
+    color: rgb(9, 9, 9);
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+}
+
+.save-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #7ad778;
+    color: rgb(9, 9, 9);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+    background-color: #66c766; /* Slightly darker green on hover */
+}
+
+/* Error Message Styles */
+.error-message {
+    color: red;
+    font-size: 0.875em;
+    display: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}
