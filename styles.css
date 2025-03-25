@@ -12,6 +12,12 @@ h1 {
     text-align: left;  /* Ensures the header is on the left */
 }
 
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 .note-form {
     width: fit-content;
     padding: 10px;
@@ -19,8 +25,8 @@ h1 {
     color: rgb(9, 9, 9);
     border: 1px solid #000000;
     border-radius: 5px;
-
 }
+
 
 #save-btn {
     width: 100%;
