@@ -18,7 +18,7 @@ We created a simple note-taking application that uses localStorage to persist no
 
 ### Name 2: Ashley Rohleder
 
--   Was responsible for designing the web page, focusing on CSS code..
+-   Was responsible for designing the web page, focusing on CSS code.
 
 ### Name 3: Khush Patel 
 
