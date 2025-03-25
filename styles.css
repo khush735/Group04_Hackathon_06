@@ -13,13 +13,15 @@ h1 {
 }
 
 textarea {
-    width: 100%;
+    width: 100%;   /* Ensures the textarea is the same width as the note-form */
     padding: 10px;
     box-sizing: border-box;
+    resize: vertical;
 }
 
+
 .note-form {
-    width: fit-content;
+    width: fit-content;  /* Ensures the note-form is also the same width as the text-area */
     padding: 10px;
     background-color: #989b98;
     color: rgb(9, 9, 9);
